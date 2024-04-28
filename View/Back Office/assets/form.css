@@ -1,0 +1,33 @@
+/* CSS for form elements */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .card-body {
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .card-footer {
+    text-align: center;
+  }
+  
+  
